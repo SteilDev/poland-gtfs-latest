@@ -1,0 +1,74 @@
+name: Update and Clean GTFS
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  download_and_clean:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install requests bs4
+
+      - name: Download latest GTFS feeds
+        run: python download_gtfs.py pl
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: "1.22"
+
+      - name: Clone and build gtfstidy
+        run: |
+          git clone https://github.com/PatrickSteil/gtfstidy.git
+          cd gtfstidy
+          git checkout encode_child_ids_via_parent
+          make build
+
+      - name: Add gtfstidy to PATH
+        run: echo "${{ github.workspace }}/gtfstidy" >> $GITHUB_PATH
+
+      - name: Run gtfstidy to clean and merge feeds
+        run: |
+          export PATH=$PATH:$HOME/go/bin
+          for g in pl_*.zip; do
+            gtfstidy "$g" -i --fix --keep-station-ids --fix-zip --remove-red-services --remove-fillers --drop-shapes --delete-orphans --output "$g"
+          done > tidy.log
+          gtfstidy -EARPICO --red-trips-fuzzy --red-stops-fuzzy --drop-shapes --hierarchical-stop-ids --prefix="pl:" pl_*.zip -o gtfs_poland_clean.zip --fix --remove-fillers --ensure-stop-parents --explicit-calendar >> tidy.log
+
+      - name: Upload cleaned GTFS as release asset
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: latest
+          files: gtfs_poland_clean.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Write timestamp
+        run: date -u +"%Y-%m-%dT%H:%M:%SZ" > last_update.txt
+
+      - name: Commit timestamp and log
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add last_update.txt tidy.log
+          git commit -m "Update timestamp" || echo "No changes to commit"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
