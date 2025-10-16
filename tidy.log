@@ -529,12 +529,12 @@ Parsing GTFS feed in 'pl_ZTP-Krak%C3%B3w-T.gtfs.zip' ... done. (127 trips [0.02%
 Removing unreferenced entries... done. (-0 trips [-0.00%], -105 stops [-0.14%], -0 shapes [-0.00%], -24 services [-0.24%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
 Removing redundant agencies... done. (-7 agencies [-5.93%])
 Removing redundant stops... done. (-728 stops [-1.00%])
-Reclustering stops... done. (-22399 clusters) [-33.33%]
+Reclustering stops... done. (-22412 clusters) [-33.35%]
 Removing redundant routes... done. (-4458 routes [-49.56%])
 Removing service duplicates... done. (-1813 services [-18.17%])
-Removing redundant trips... done. (-186730 trips [-24.65%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -54142 services [-49.04%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Removing service duplicates... done. (-47693 services [-84.79%])
-Adding parent stations to all stops... done. (+25317 stations)
+Removing redundant trips... done. (-154763 trips [-20.43%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -3 stops [-0.00%], -0 shapes [-0.00%], -49935 services [-58.61%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Removing service duplicates... done. (-26728 services [-75.79%])
+Adding parent stations to all stops... done. (+25297 stations)
 Encoding stop_ids via parent_station ids ... done.
 Outputting GTFS feed to 'gtfs_poland_clean.zip'... done.
