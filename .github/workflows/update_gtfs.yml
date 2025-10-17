@@ -47,10 +47,37 @@ jobs:
       - name: Run gtfstidy to clean and merge feeds
         run: |
           export PATH=$PATH:$HOME/go/bin
-          for g in pl_*.zip; do
-            gtfstidy "$g" -i --fix --keep-station-ids --fix-zip --remove-red-services --remove-fillers --drop-shapes --delete-orphans --output "$g"
+          DATE_START=$(date +%Y%m%d)
+          for g in *.zip; do
+            gtfstidy "$g" \
+              -i \
+              --fix \
+              --fix-zip \
+              --remove-red-services \
+              --remove-fillers \
+              --drop-shapes \
+              --delete-orphans \
+              --drop-single-stop-trips \
+              --drop-too-fast-trips \
+              --date-start "$DATE_START" \
+              --output "$g"
           done > tidy.log
-          gtfstidy -EARPICO --red-trips-fuzzy --red-stops-fuzzy --drop-shapes --hierarchical-stop-ids --prefix="pl:" pl_*.zip -o gtfs_poland_clean.zip --fix --remove-fillers --ensure-stop-parents --explicit-calendar >> tidy.log
+      
+          (
+            gtfstidy \
+              -EARPICO \
+              --red-trips-fuzzy \
+              --red-stops-fuzzy \
+              --drop-shapes \
+              --hierarchical-stop-ids \
+              --prefix="pl:" \
+              *.zip \
+              -o gtfs_poland_clean.zip \
+              --fix \
+              --remove-fillers \
+              --ensure-stop-parents \
+              --explicit-calendar
+          ) >> tidy.log
 
       - name: Upload cleaned GTFS as release asset
         uses: softprops/action-gh-release@v1
