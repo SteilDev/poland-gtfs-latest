@@ -52,6 +52,10 @@ jobs:
             gtfstidy "$g" \
               -i \
               --fix \
+              --recluster-stops \
+              --dist-threshold-stop 100 \
+              --red-trips-fuzzy \
+              --red-stops-fuzzy \
               --fix-zip \
               --remove-red-services \
               --remove-fillers \
@@ -66,18 +70,19 @@ jobs:
           (
             gtfstidy \
               -EARPICO \
-              --dist-threshold-stop 200 \
+              --dist-threshold-stop 100 \
               --red-trips-fuzzy \
               --red-stops-fuzzy \
               --drop-shapes \
               --hierarchical-stop-ids \
-              --prefix="pl:" \
               *.zip \
-              -o gtfs_poland_clean.zip \
               --fix \
               --remove-fillers \
+              --minimize-services \
               --ensure-stop-parents \
-              --explicit-calendar
+              --explicit-calendar \
+              --prefix="pl:" \
+              -o gtfs_poland_clean.zip
           ) >> tidy.log
 
       - name: Upload cleaned GTFS as release asset
