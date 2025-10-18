@@ -66,6 +66,7 @@ jobs:
           (
             gtfstidy \
               -EARPICO \
+              --dist-threshold-stop 200 \
               --red-trips-fuzzy \
               --red-stops-fuzzy \
               --drop-shapes \
