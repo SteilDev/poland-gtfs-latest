@@ -74,6 +74,7 @@ jobs:
               --red-trips-fuzzy \
               --red-stops-fuzzy \
               --drop-shapes \
+              --stable-stop-ids-parents \
               --hierarchical-stop-ids \
               *.zip \
               --fix \
