@@ -8,7 +8,7 @@ Outputting GTFS feed to 'pl_%C5%81%C3%B3d%C5%BA.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_%C5%81%C3%B3dzka-Kolej-Aglomeracyjna-bus.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -12 stops [-1.67%], -0 shapes [-0.00%], -0 services [-0.00%], -8 routes [-16.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-256 clusters) [-36.16%]
+Reclustering stops... done. (-257 clusters) [-36.30%]
 Removing service duplicates... done. (-4 services [-57.13%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_%C5%81%C3%B3dzka-Kolej-Aglomeracyjna-bus.gtfs.zip'... done.
@@ -85,7 +85,7 @@ Outputting GTFS feed to 'pl_Bardo.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Bia%C5%82ystok.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -33 stops [-2.86%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-161 clusters) [-14.36%]
+Reclustering stops... done. (-163 clusters) [-14.54%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Bia%C5%82ystok.gtfs.zip'... done.
@@ -113,7 +113,7 @@ Outputting GTFS feed to 'pl_Biskupiec.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Bydgoszcz.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-449 clusters) [-38.05%]
+Reclustering stops... done. (-451 clusters) [-38.22%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Bydgoszcz.gtfs.zip'... done.
@@ -127,7 +127,7 @@ Outputting GTFS feed to 'pl_Ciechan%C3%B3w.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Cz%C4%99stochowa.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-224 clusters) [-25.14%]
+Reclustering stops... done. (-222 clusters) [-24.92%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Cz%C4%99stochowa.gtfs.zip'... done.
@@ -162,14 +162,14 @@ Outputting GTFS feed to 'pl_Elbl%C4%85g.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Gda%C5%84sk.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -1 stops [-0.04%], -0 shapes [-0.00%], -0 services [-0.00%], -2 routes [-1.09%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-1018 clusters) [-38.14%]
+Reclustering stops... done. (-1022 clusters) [-38.29%]
 Removing service duplicates... done. (-2 services [-7.69%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Gda%C5%84sk.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Gdynia.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -3 agencies [-37.50%], -0 transfers [-0.00%])
-Reclustering stops... done. (-356 clusters) [-32.01%]
+Reclustering stops... done. (-358 clusters) [-32.19%]
 Removing service duplicates... done. (-1 services [-12.50%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Gdynia.gtfs.zip'... done.
@@ -197,14 +197,14 @@ Outputting GTFS feed to 'pl_Goleni%C3%B3w.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Gorz%C3%B3w-Wielkopolski.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-80 clusters) [-18.69%]
+Reclustering stops... done. (-79 clusters) [-18.46%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Gorz%C3%B3w-Wielkopolski.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Grodziskie-Przewozy-Autobusowe.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -5 stops [-0.28%], -0 shapes [-0.00%], -0 services [-0.00%], -1 routes [-1.54%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-575 clusters) [-32.67%]
+Reclustering stops... done. (-578 clusters) [-32.84%]
 Removing service duplicates... done. (-2 services [-14.28%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Grodziskie-Przewozy-Autobusowe.gtfs.zip'... done.
@@ -253,7 +253,7 @@ Outputting GTFS feed to 'pl_Kalisz-LocalBuses.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Kielce.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -5 stops [-0.37%], -0 shapes [-0.00%], -0 services [-0.00%], -6 routes [-10.34%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-380 clusters) [-28.17%]
+Reclustering stops... done. (-379 clusters) [-28.09%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Kielce.gtfs.zip'... done.
@@ -358,14 +358,14 @@ Outputting GTFS feed to 'pl_Leszno.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Lublin.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-1326 trips [-14.01%], -2 stops [-0.15%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-374 clusters) [-28.97%]
+Reclustering stops... done. (-375 clusters) [-29.05%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Lublin.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_MPK-Wroc%C5%82aw.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-1190 clusters) [-48.49%]
+Reclustering stops... done. (-1188 clusters) [-48.41%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_MPK-Wroc%C5%82aw.gtfs.zip'... done.
@@ -421,7 +421,7 @@ Outputting GTFS feed to 'pl_Opoczno.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Opole.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-140 clusters) [-26.92%]
+Reclustering stops... done. (-139 clusters) [-26.73%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Opole.gtfs.zip'... done.
@@ -484,7 +484,7 @@ Outputting GTFS feed to 'pl_PKS-Nova-Supra%C5%9Bl.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_PKS-Nova.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -1446 stops [-26.61%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-631 clusters) [-15.82%]
+Reclustering stops... done. (-632 clusters) [-15.84%]
 Removing service duplicates... done. (-1 services [-2.78%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_PKS-Nova.gtfs.zip'... done.
@@ -554,21 +554,21 @@ Outputting GTFS feed to 'pl_Powiat-%C5%9Awiecki.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Powiat-Mi%C5%84ski.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-168 clusters) [-30.43%]
+Reclustering stops... done. (-169 clusters) [-30.62%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Powiat-Mi%C5%84ski.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Powiat-Olecki.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -3 services [-42.85%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-171 clusters) [-31.49%]
+Reclustering stops... done. (-170 clusters) [-31.31%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Powiat-Olecki.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Pozna%C5%84.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -23 stops [-0.71%], -0 shapes [-0.00%], -0 services [-0.00%], -7 routes [-3.30%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-1298 clusters) [-40.29%]
+Reclustering stops... done. (-1293 clusters) [-40.13%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Pozna%C5%84.gtfs.zip'... done.
@@ -596,14 +596,14 @@ Outputting GTFS feed to 'pl_RPK-Bochnia.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Radom.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -1 stops [-0.16%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-81 clusters) [-13.21%]
+Reclustering stops... done. (-82 clusters) [-13.38%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Radom.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Radzymin.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-47 clusters) [-22.38%]
+Reclustering stops... done. (-46 clusters) [-21.90%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Radzymin.gtfs.zip'... done.
@@ -729,7 +729,7 @@ Outputting GTFS feed to 'pl_Toru%C5%84.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_TransportGZM.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-148 trips [-0.06%], -9 stops [-0.12%], -0 shapes [-0.00%], -0 services [-0.00%], -3 routes [-0.61%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-3062 clusters) [-42.52%]
+Reclustering stops... done. (-3060 clusters) [-42.49%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_TransportGZM.gtfs.zip'... done.
@@ -764,7 +764,7 @@ Outputting GTFS feed to 'pl_Warsaw-Ferries.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_Warszawa.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-429 trips [-0.35%], -7 stops [-0.10%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-2611 clusters) [-37.98%]
+Reclustering stops... done. (-2613 clusters) [-38.01%]
 Removing service duplicates... done. (-1 services [-7.69%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_Warszawa.gtfs.zip'... done.
@@ -799,7 +799,7 @@ Outputting GTFS feed to 'pl_Z%C4%85bki.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_ZTP-Krak%C3%B3w-A.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -1 services [-20.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-1076 clusters) [-35.89%]
+Reclustering stops... done. (-1077 clusters) [-35.92%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_ZTP-Krak%C3%B3w-A.gtfs.zip'... done.
@@ -813,7 +813,7 @@ Outputting GTFS feed to 'pl_ZTP-Krak%C3%B3w-M.gtfs.zip'... done.
 Parsing GTFS feed in 'pl_ZTP-Krak%C3%B3w-T.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-2238 trips [-12.28%], -2 stops [-0.57%], -0 shapes [-0.00%], -0 services [-0.00%], -1 routes [-3.57%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-28 clusters) [-8.07%]
+Reclustering stops... done. (-27 clusters) [-7.78%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'pl_ZTP-Krak%C3%B3w-T.gtfs.zip'... done.
@@ -952,16 +952,16 @@ Parsing GTFS feed in 'pl_Zakroczym.gtfs.zip' ... done. (128 trips [0.01%], 1221 
 Parsing GTFS feed in 'pl_Zielona-G%C3%B3ra.gtfs.zip' ... done. (128 trips [0.01%], 1221 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 4 routes [0.07%], 2 agencies [1.37%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors. Use -W to display them.)
 Removing unreferenced entries... done. (-0 trips [-0.00%], -131 stops [-0.13%], -0 shapes [-0.00%], -60 services [-2.10%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
 Removing redundant agencies... done. (-28 agencies [-19.44%])
-Adding parent stations to all stops... done. (+35255 stations)
-Removing redundant stops... done. (-2909 stops [-2.12%])
-Reclustering stops... done. (-7911 clusters) [-14.52%]
+Adding parent stations to all stops... done. (+35239 stations)
+Removing redundant stops... done. (-2907 stops [-2.11%])
+Reclustering stops... done. (-7920 clusters) [-14.54%]
 Removing redundant routes... done. (-808 routes [-14.55%])
 Removing service duplicates... done. (-1016 services [-36.25%])
 Minimizing services... done. (-53092 calendar_dates.txt entries [-90.61%], +1449 calendar.txt entries [+467.42%])
-Removing redundant trips... done. (-280174 trips [-30.76%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -823 stops [-0.65%], -0 shapes [-0.00%], -71695 services [-44.50%], -60 routes [-1.26%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Removing service duplicates... done. (-87279 services [-97.61%])
-Minimizing services... done. (-1974 calendar_dates.txt entries [-23.21%], -4 calendar.txt entries [-0.19%])
+Removing redundant trips... done. (-338765 trips [-37.20%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -690 stops [-0.54%], -0 shapes [-0.00%], -87436 services [-48.99%], -55 routes [-1.16%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Removing service duplicates... done. (-88865 services [-97.62%])
+Minimizing services... done. (-1985 calendar_dates.txt entries [-23.36%], -4 calendar.txt entries [-0.19%])
 Computing stable stop ids ... done.
 Encoding stop_ids via parent_station ids ... done.
 Outputting GTFS feed to 'gtfs_poland_clean.zip'... done.
